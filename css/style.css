@@ -1,0 +1,365 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section Start */
+
+header{background-color: 87509C;padding-top: 7px;padding-left: 100px;position: relative;height: 100vh;}
+.container{
+   
+width: 1200px;
+   
+margin: 0 auto;
+   
+}
+.logo{
+    
+width: 20%;
+    
+float: left;
+}
+nav{
+    
+width: 80%;
+    
+float: left;
+    
+text-align: right;
+}
+nav ul{
+    margin-top: 0px;
+}
+nav ul li{
+    list-style: none;
+    padding: 10;
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    padding: 6px 6px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #de88ff;
+}
+.s1-text{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);width: 100%;text-align: center;}
+.s1-text h1{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 45px;
+}
+.s1-text a{
+    background: #EB7D4B;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 50px;
+    color: white;
+        border-bottom: 5px solid #965232;
+}
+
+    /* Header Section End */
+
+    /* Service Section Start */
+.service-section{
+    background: #17C2A4;
+    height: 100vh;
+}
+.service-heading{
+    text-align: center;
+    color: white;
+}
+.service-heading h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.service-heading span{
+    display: inline-block;
+    background-color: #30a590;
+    height: 4px;
+    width: 100px;
+    margin-top: 10px;
+}
+.service-heading p{
+    margin-top: 20px;
+    text-align: center;
+    width: 500px;
+    margin-left: 360px;
+}
+.col-4{
+    width: 25%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-left: 0px;
+}
+.service{
+    text-align: center;
+    color: white;
+}
+.service img{}
+.service h2{}
+.service p{}
+
+/* Service Section End */
+
+/* Team Section Start  */
+.team-section{
+    text-align: center;
+    background: #E7F1F8;
+    color: #27283D;
+    height: 100vh;
+}
+.team-heading{
+    
+color: #3C4761;
+}
+.team-heading h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: center;
+}
+.team-heading p{
+    text-align: center;
+    text-transform: capitalize;
+    color: #3C4761;
+}
+.team-heading span{
+    display: inline-block;
+    background-color: #c1c9ce;
+    height: 4px;
+    width: 100px;
+    margin-top: 10px;
+}
+.col-4{}
+.team-box1{}
+.col-4 img{
+    margin-top: 50px;
+}
+.col-4 h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: #3C4761;
+    margin-bottom: 0px;
+}
+.col-4 span{
+    color: #55C2E9;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.col-4 p{
+    text-align: center;
+    color: #3C4761;
+}
+
+.col-4 .social{
+    margin: 0;
+    padding: 0;
+}
+.social ul{}
+.social ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social ul li a{
+    color: white;
+    background: #BDD1Df;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30%;
+}
+
+
+
+
+/* Team Section End  */
+
+/* skill Section Start  */
+
+.skill-section{
+    text-align: center;
+    background: #f7f7f700;
+    color: #040404;
+    height: 100vh;
+}
+.skill-head{
+}
+.skill-head h1{
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-size: 45px;
+    margin-bottom: 12px;
+}
+.skill-head span{
+    display: inline-block;
+    height: 4px;
+    width: 100px;
+    background-color: #dee7ec;
+    margin-top: 0;
+}
+.skill-head p{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    text-transform: capitalize;
+}
+
+.skill-box{
+    position: relative;
+}
+.skill-box img{}
+.skill-box p{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 47%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
+.skill-box h2{
+    text-transform: uppercase;
+}
+.skill-box h3{}
+/* skill Section End  */
+
+    /* Portfolio Section Start */
+.portfolio{
+    background: #FFDD99;
+    height: 130vh;
+}
+.porthead{text-align: center;}
+.porthead h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.porthead span{height: 4px;width: 100px;background-color: #d4b77d;display: inline-block;}
+.porthead p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.portnav{
+    text-align: center;
+    font-size: 55px;
+    margin-left: 150px;
+}
+.portnav ul{
+    padding: 0;
+}
+.portnav ul li{}
+.portnav ul li a{
+    font-size: 20;
+    background-color: #ecce92;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+.portnav ul li a:hover{
+    color: #0e0e0e;
+    background: white;
+}
+
+.col-2{
+    text-align: center;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    display: inline-block
+}
+.row-button{
+    text-align: center;
+}
+.col-2 img{
+}
+.col-2 p{
+    text-transform: uppercase;
+}
+.row-button a{
+    background: #17C2A4;
+    color: white;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 5px solid #16ad92;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 59px;
+}
+
+    /* portfolio Section End */
+
+    /* about us Section Start */
+    .about{
+    background: #D74680;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+    .abouthead{}
+    .abouthead h1{
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-bottom: 17px;
+}
+    .abouthead span{
+    height: 5px;
+    width: 100px;
+    background: #b33c6c;
+    display: inline-block;
+}
+    .abouthead p{
+    margin-bottom: 50px;
+}
+
+    .col-2 .box1{
+}
+    .col-2 .box1-a{
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    display: inline-block;
+}
+    .col-2 .box1-a img{}
+
+    .col-2 .box1-b i{}
+    .col-2 .box1-b h4{
+    width: 160px;
+    font-size: 17px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+    .col-2 .box1-b span{color: #f5f5ba;display: -webkit-box;margin-left: 17px;}
+    .col-2 .box1-b{
+    width: 80%;
+    float: left;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+    .col-2 .box1-b p{
+    width: 430px;
+    font-size: 17px;
+}
+.fb-like{
+    position: fixed !important;
+}
+
+    /* about us Section End */
+
